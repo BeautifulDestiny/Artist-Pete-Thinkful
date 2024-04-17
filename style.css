@@ -9,23 +9,18 @@ body {
 
 body {
   background-color: #eae2b7;
-  margin: 0;
+  margin: 1%;
 }
 /* Set the font family for any h1, h2, or h3 heading */
-h1,{font-family: "Playfair Display", Times, serif;
+h1,
+h2,
+h3
+{font-family: "Playfair Display", Times, serif;
 font-size: 24px;
 color: #black;
+    text-align:center;
 }
-h2,{
-  font-family: "Playfair Display", Times, serif;
-  font-size: 24px;
-  color: #black;
-}
-h3 {
-  font-family: "Playfair Display", Times, serif;
-  font-size: 24px
-  color: #black;
-}
+
 header a:hover {
   color: #f77f00;
 }
@@ -66,4 +61,27 @@ hr {
 
 .image-circle {
   border-radius: 50%;
+  }
+
+nav{
+  text-align:center;
+ }
+
+section{
+  text-align:center;
+}
+
+li{
+  list-style-position: inside;
+}
+
+ul{
+  text-align:left;
+}
+ol{
+  text-align: left;
+}
+
+footer{
+  text-align:center;
 }
