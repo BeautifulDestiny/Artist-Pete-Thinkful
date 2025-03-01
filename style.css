@@ -12,10 +12,11 @@ body {
 h1,
 h2,
 h3
-{font-family: "Playfair Display", Times, serif;
+{text-align: center;
+  font-family: "Playfair Display", Times, serif;
 font-size: 24px;
 color: #black;
-    text-align:center;
+    
 }
 
 header a:hover {
