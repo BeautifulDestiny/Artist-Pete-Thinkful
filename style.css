@@ -2,21 +2,18 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-}
-
-body {
   background-color: #eae2b7;
-  margin: 1%;
+  margin-left: 23%;
+  margin-right: 23%;
 }
 /* Set the font family for any h1, h2, or h3 heading */
 h1,
 h2,
 h3
-{text-align: center;
-  font-family: "Playfair Display", Times, serif;
+{font-family: "Playfair Display", Times, serif;
 font-size: 24px;
-color: #black;
-    
+color: black;
+    text-align:center;
 }
 
 header a:hover {
@@ -32,41 +29,46 @@ article {
 
 article div {
   text-align: center;
-  width: 100%;
+  width: 100%; 
 }
 
 p {
   line-height: 1.5;
+  
 }
 
 /* The div container constrains the content width within the main container to 600px */
+/*
 div {
   margin: 0 auto;
   width: 600px;
-}
+} */
 
 img {
   width: 100%;
   max-width: 200px;
-  height: auto;
+  height: 0 auto;
 }
 
 hr {
   border: 1px solid black;
+  max-width:100%;
 }
 
 /* Add your solution below */
 
 .image-circle {
   border-radius: 50%;
-  }
+  
+}
 
 nav{
-  text-align:center;
+  text-align: center;
  }
 
 section{
   text-align:center;
+
 }
 
 li{
@@ -83,3 +85,4 @@ ol{
 footer{
   text-align:center;
 }
+ 
